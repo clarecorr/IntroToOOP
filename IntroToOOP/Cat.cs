@@ -27,6 +27,11 @@ namespace IntroToOOP
             set { this.name = value; }
         }
 
+        public int Age
+        {
+            get { return this.age; }
+        }
+
         //We also have Behaviors.
         //Methods - repeatable or reusable sections of code - Actions
         //Constructors - specialized methods that are used when instantiating an object
@@ -37,13 +42,17 @@ namespace IntroToOOP
         public Cat()
         {
             //This is an example of a default constructor. A default constructor takes no arguments/parameters 
+            //default constructors are really common, they 
         }
 
+        //you can have as many constructors as you need as long as they each have a unique signature
+        //signature - the parameters in teh parentheses after the constructor name.
         public Cat(string name, int age, string furColor) //another constructor?
         {
             this.name = name;
             this.age = age;
             this.furColor = furColor;
+            //overloading
         }
 
         public void int Eat()
