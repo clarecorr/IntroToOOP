@@ -55,9 +55,9 @@ namespace IntroToOOP
             //overloading
         }
 
-        public void int Eat()
+        public void Eat()
         {
-            if(isHungry)
+            if (isHungry)
             {
                 isHungry = false;
             }
@@ -65,4 +65,5 @@ namespace IntroToOOP
         }
     }
 }
+
 

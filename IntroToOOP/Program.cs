@@ -21,6 +21,15 @@ namespace IntroToOOP
             Cat firstCat = new Cat();
             firstCat.Name = "Mittens";
 
+            Cat secondCat = new Cat("Oz", 3, "Orange and white");
+            secondCat.Name = "Ozzy";
+            Console.WriteLine(secondCat.Name);
+
+            secondCat.Eat();
+
+            Dog firstDog = new Dog("short", 10, 10, 80);
+           
+
             
             //To create a new object, we use special method called a CONSTRUCTOR
 
