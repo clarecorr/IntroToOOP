@@ -80,11 +80,12 @@ namespace IntroToOOP
             {
                 Console.WriteLine("Your dog just made a mess");
                 weight -= 1;
+                return weight;
             }
             else
             {
                 Console.WriteLine("Your dog has to alleviate itself.");
-                weight = weight;
+                return weight;
             }
         }
         public void Cuddle()
