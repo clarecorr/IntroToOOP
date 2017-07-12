@@ -9,7 +9,7 @@ namespace IntroToOOP
     class Cat //writing this and the curly braces defines the class?
     {
         //Inside of our class, we create the blueprint for our object.
-        //Classes are templates in OOP thta we use to create objects.
+        //Classes are templates in OOP that we use to create objects.
         //They should always be named in Pascal Case.
 
         //In OOP, there are two types of states:
@@ -30,6 +30,13 @@ namespace IntroToOOP
         public int Age
         {
             get { return this.age; }
+        }
+
+        public bool IsHungry
+        {
+            get { return this.isHungry; }
+            set { this.isHungry = value; }
+
         }
 
         //We also have Behaviors.
